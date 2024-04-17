@@ -1,0 +1,166 @@
+:root {
+  --color-212529: #212529;
+  --color-ffd333: #ffd333;
+  --color-47ad24: #47ad24;
+  --color-e52e2e: #e52e2e;
+  --color-828599: #828599;
+  --color-3d464d: #ed464d;
+  --color-c3d4da: #ced4da;
+  --lighter: #F9FAFB;
+  --red: #DE3618;
+  --light-fill-blue: #E5EEF4;
+  --light-fill-purpel: #F5F0FC;
+  --light-fill-indigo: #EFF0F9;
+  --light-fill-teal: #EDF9F9;
+  --light-fill-green: #EDF8EB;
+  --light-fill-yellow: #FDF9E5;
+  --light-fill-orange: #FEF4EC;
+  --light-fill-red: #FCEBE8;
+
+
+}
+.text-ellipsis {
+  white-space: nowrap;     /* Ngăn chặn quấn văn bản vào hàng mới */
+  overflow: hidden;        /* Ẩn phần văn bản bị tràn */
+  text-overflow: ellipsis; /* Hiển thị dấu elipsis (...) */
+  max-width: 160px;        /* Đặt chiều rộng tối đa của phần tử */
+}
+
+.textwrap2line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Số dòng tối đa bạn muốn hiển thị */
+}
+.textwrap3line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  flex-grow: 1; /* Số dòng tối đa bạn muốn hiển thị */
+}
+.primary-color {
+  color: #43467F;
+}
+
+.primary-bg {
+  background-color: #43467F;
+}
+
+.blue {
+  color: #006FBB;
+}
+
+.blue-bg {
+  background-color: #006FBB;
+}
+
+.purpel {
+  color: #9C6ADE;
+}
+
+.purpel-bg {
+  background-color: #9C6ADE;
+}
+
+.indigo {
+  color: #5C6AC4;
+}
+
+.indigo-bg {
+  background-color: #5C6AC4;
+}
+
+.teal {
+  color: #47C1BF;
+}
+
+.teal-bg {
+  background-color: #47C1BF;
+}
+
+.green {
+  color: #50B83C;
+}
+
+.green-bg {
+  background-color: #50B83C
+}
+
+.yellow {
+  color: #EEC200;
+}
+
+.yellow-bg {
+  background-color: #EEC200;
+}
+
+.orange {
+  color: #F49342;
+}
+
+.orange-bg {
+  background-color: #F49342;
+}
+
+.red {
+  color: #DE3618;
+}
+
+.red-bg {
+  background-color: #DE3618;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: black;
+}
+
+
+
+.dark-lightest95 {
+  color: #959EAD;
+}
+
+
+.green {
+  color: var(--color-47ad24);
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+
+.red {
+  color: var(--color-e52e2e);
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+
+.quill {
+  background-color: white;
+}
+
+.form-control {
+  box-shadow: none;
+  border-color: var(--color-c3d4da);
+}
+
+.title {
+  font: 28px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+
+.sub-title {
+  font: 24px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+
+.desc {
+  font: 14px;
+  font-family: Roboto !important;
+  color: var(--color-828599);
+}
